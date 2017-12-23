@@ -88,7 +88,7 @@ class neuralNetwork:
         finalInputs = numpy.dot(self.weightHidden2Output, hiddenOutputs)
         
         # find final layer outputs
-        finalOutputs = self.activation_function(finalInputs)
+        finalOutputs = self.activationFunction(finalInputs)
         
         # now we need to find the error and adjust the weight
         # between the layers to minimise the error
