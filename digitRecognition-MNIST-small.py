@@ -3,6 +3,7 @@
 
 # In[118]:
 
+# in MNIST data 0 means white and 255 means black
 
 # for numpy arrays
 import numpy
